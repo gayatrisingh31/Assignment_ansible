@@ -1,0 +1,7 @@
+---
+- name: copy html pages
+  copy:
+    src: files/diwali_html
+    dest: /var/www/
+  become: yes
+  
